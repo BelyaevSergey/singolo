@@ -9,19 +9,6 @@ margin: 0 auto;
     display:flex;
     flex-direction: column;
 }
-.container {
-    width: 940px;;
-    margin: auto;
-    
-}
-.container1 {
-    display: flex;
-    width: 940px;;
-    margin: auto;
-    justify-content: space-between;
-    align-items: flex-start;
-
-}
 
 header {
     border-bottom: 5px solid #323746;
@@ -29,20 +16,35 @@ header {
     background-color: #2d303a;
     }
 
+.container {
+    width: 940px;;
+    margin: 0 auto;
+    padding:0;
+    
+}
+
+.container1 {     
+    display: flex;
+    padding:0;
+    margin: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 h1 {
     font-size: 20px;
     margin: 0;
+    padding: 0;
     margin-top: 34px;
     text-transform: uppercase;
+    border:2px solid wheat;
+    color: white;
 }
+
 .uni {
     color:#f06c64;
 }
 
-.logo {
-    border:2px solid wheat;
-    color: white;
-}
 .menu {
     list-style: none;
     margin: 45px 0 0 0;
@@ -54,7 +56,7 @@ h1 {
     display: inline-block;
     padding: 0;
     margin: 0;
-    
+    color: mediumseagreen;
     text-transform: uppercase; 
     }
 .menu li a {
@@ -64,6 +66,9 @@ h1 {
     color: white;
     margin:31px;
     text-decoration: none;
+    }
+    .menu li :hover {
+        color: rgb(182, 133, 231);
     }
 .slide {
    
@@ -77,5 +82,74 @@ h1 {
     height: 495px;
     border-bottom: 5px solid #ffffff;
     background-color: #f2f2f2;
-    margin-top: 595px;
+    margin-top: 0;
+}
+
+.container2 {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: column;
+}
+
+.headling {
+    margin: 0;
+    padding: 0;
+    border: 2px solid green;
+    font-size: 15px;
+}
+h2 {
+    margin: 0;
+    margin-top: 65px;
+    padding: 0;
+    border: 3px solid green;
+}
+.description {
+    border: 2px solid orange;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    font-size: 10px;
+    line-height: 20px;
+    height: 40px;
+}
+.container3 {
+    display:flex;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    border: 5px solid chocolate;
+    justify-content: space-between;
+}
+.container4 {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    border: 5px solid plum;
+    justify-content: space-between;
+}
+.cub {
+    display:flex;
+    margin: 0;
+    padding: 0;
+    border: 5px solid springgreen;
+    height: 86px;
+    width: 299px;
+    justify-content:space-between;
+    align-content: flex-start;
+   
+}
+.servpic {
+    margin: 0;
+    padding: 0;
+    border: 1px solid fuchsia;
+    height: 59px;
+    width: 59px;
+}
+.serv {
+    margin: 0;
+    padding: 0;
+    border: 1px solid mediumseagreen;
+    height: 86px;
+    width: 220px;
 }
