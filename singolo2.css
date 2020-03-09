@@ -21,7 +21,7 @@ body {
     margin-top: 0px;
    
 }
-.container1 {
+.container1Page2 {
     margin: 0 auto;
     width: 1020px;
     background-color: #2d303a;
@@ -30,7 +30,7 @@ body {
     
     
 }
-.h1 {
+.h1Page2 {
     font-family: "Lato-Black";
     color:#666d89;
     font-size: 30px;
@@ -42,10 +42,10 @@ body {
     margin-bottom: 1px;
 
 }
-header {
+.headerPage2 {
     padding-top: 1px;
 }
-.text {
+.textPage2 {
 font-size: 18px;
 line-height: 30px;
 color: #767e9e;
@@ -56,14 +56,14 @@ margin-top: 27px;
 letter-spacing: 0.159px;
 word-spacing: -2.39px;
 }
-nav ul {
+.navPage2 ul {
     margin-left: 0px;
     padding:0px;
     margin-top: 11px;
     word-spacing: 1px;
     letter-spacing: 0.245px;
 }
-nav ul li {
+.navPage2 ul li {
     font-family: "Lato-Regular";
     display: inline-block;
     border:1px solid #666d89;
@@ -79,18 +79,18 @@ nav ul li {
 
 }
 
-nav ul li a {
+.navPage2 ul li a {
     display: block;
     text-decoration: none;
 }
 
-nav ul li:hover {
+.navPage2 ul li:hover {
     opacity: 50%;
     color: #dedede;
     cursor: pointer;
 }
 
-main 
+.mainPage2 
 {
     display:flex;
     min-height: 604px;
@@ -100,7 +100,7 @@ main
     flex-wrap: wrap;
     overflow: hidden;
 }
-.column {
+.columnPage2 {
     display:flex; 
     flex-direction: column;
     padding-top: 3px;
@@ -115,7 +115,7 @@ main
    padding-bottom: 20px;
 }
 
-.container2 {
+.container2Page2 {
     margin: 0 auto;
     width: 1020px;
     background-color: #f2f2f2;
@@ -123,22 +123,22 @@ main
     padding-bottom: 3px;
     
 }
-.wrapper1 {
+.wrapper1Page2 {
     width: 940px;
     margin:0 auto;
     padding-bottom: 67px;
 }
-.wrapper2 {
+.wrapper2Page2 {
     width: 940px;
     margin:0 auto;
     
 }
 
-.footer {
+.footerPage2 {
     padding-top:1px;
 
 }
-h2 {
+.h2Page2 {
     font-size: 30px;
     line-height:18px;
     color: #666d89;
@@ -149,7 +149,7 @@ h2 {
     letter-spacing: -0.3px;
     margin-bottom: 0px;
 }
-.text2 {
+.text2Page2 {
     font-family: "Lato-Light";
     font-size:18px;
     line-height: 30px;
@@ -160,7 +160,7 @@ h2 {
     letter-spacing: 0.19px;
     margin-top: 25px;
 }
-.info {
+.infoPage2 {
     display:flex;
     flex-direction:row ;
     margin-top: 45px;
@@ -169,7 +169,7 @@ h2 {
     padding-bottom: 61px;
     
 }
-.about {
+.aboutPage2 {
     display: flex;
     flex-direction: column;
     width: 303px;
@@ -177,7 +177,7 @@ h2 {
 }
 
 
-.name1 {
+.name1Page2 {
     font-family: "Lato-Black";
     font-size: 18px;
     line-height: 18px;
@@ -190,7 +190,7 @@ h2 {
     overflow: hidden;
     max-height: 18px;
 }
-.name2 {
+.name2Page2 {
     font-family: "Lato-Black";
     font-size: 18px;
     line-height: 18px;
@@ -204,7 +204,7 @@ h2 {
     max-height: 18px;
 }
 
-.name3 {
+.name3Page2 {
     font-family: "Lato-Black";
     font-size: 18px;
     line-height: 18px;
@@ -251,15 +251,15 @@ h2 {
     margin-top: 10px;
     
 }
-.social {
+.socialPage2 {
     margin-top: 22px;
     display:flex;
    
 
 }
-.social div {
+.socialPage2 div {
     padding-right: 8px;
 }
-.social img:hover {
+.socialPage2 img:hover {
     opacity: 40%;
 }

@@ -17,23 +17,23 @@
 body {
     margin:0px;
 }
-.wrapper1 {
+.wrapper1Page3 {
     width: 1020px;
     margin: 0 auto;
 }
-.wrapper {
+.wrapperPage3 {
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
     padding: 1px;
     margin: 0px;
     padding-bottom: 37px;
 }
-.container {
+.containerPage3 {
     width: 940px;
     margin: 0 auto;
 }
 
-h2 {
+.h2Page3 {
     margin: 0px;
     padding: 0px;
     font-family: "Lato-Black";
@@ -45,7 +45,7 @@ h2 {
     margin-top: 107px;
     letter-spacing: -0.3px;
 }
-.text {
+.textPage3 {
     font-family: "Lato-Light";
     font-size: 18px;
     line-height: 30px;
@@ -55,7 +55,7 @@ h2 {
     margin-top: 27px;
     letter-spacing: -0.2px;
 }
-.information {
+.informationPage3 {
     display: flex;
     margin-top: 42px;
 
@@ -66,13 +66,13 @@ width: 621px;
  
 
 }
-.contactInfo {
+.contactInfoPage3 {
     width: 301px;
     padding-left: 21px;
     margin-top: 2px;
 }
 
-h3 {
+.h3Page3 {
     margin:0px;
     padding: 0px;
     font-family: "Lato-Black";
@@ -83,7 +83,7 @@ h3 {
     text-align: left;
 }
 
-.info {
+.infoPage3 {
     font-family: "Lato-Regular";
     font-size: 12px;
     line-height: 22px;
@@ -93,10 +93,10 @@ h3 {
     margin-top: 10px;
     letter-spacing: -0.15px;
 }
-.contact {
+.contactPage3 {
     margin-top: 21px;
 }
-.infoText {
+.infoTextPage3 {
     font-family: "Lato-Regular";
     font-size: 12px;
     line-height: 22px;
@@ -108,23 +108,23 @@ h3 {
     padding-left: 2px;
     letter-spacing: -0.2px;
 }
-.infoText div:first-child img {
+.infoTextPage3 div:first-child img {
     padding-right: 11px;
 }
-.infoText div:nth-child(2) img{
+.infoTextPage3 div:nth-child(2) img{
     padding-right: 8px;
 }
-.infoText div:nth-child(2) {
+.infoTextPage3 div:nth-child(2) {
     margin-top: -2px;
 }
-.infoText div:nth-child(3) img{
+.infoTextPage3 div:nth-child(3) img{
     padding-right: 7px;
 }
-.infoText div:nth-child(3){
+.infoTextPage3 div:nth-child(3){
     
 }
 
-footer {
+.footerPage3 {
     margin-top: 0px;
     display:flex;
     justify-content: space-between;
@@ -132,7 +132,7 @@ footer {
     padding-bottom: 16px;
 }
 
-.social {
+.socialPage3 {
     display:flex;
     margin-top: 24px;
     padding-right: 32px;
@@ -222,22 +222,22 @@ textarea {
     border: none;
    border-radius: 5px;
 }
-.copyright {
+.copyrightPage3 {
     margin-top: 31px;
     padding-left: 42px;
 }
-.social div{
+.socialPage3 div{
 padding-right: 8px;
 }
-.social div:nth-child(1) img:hover {
+.socialPage3 div:nth-child(1) img:hover {
     opacity: 50%;
 }
-.social div:nth-child(2) img:hover {
+.socialPage3 div:nth-child(2) img:hover {
     opacity: 50%;
 }
-.social div:nth-child(3) img:hover {
+.socialPage3 div:nth-child(3) img:hover {
     opacity: 50%;
 }
-.social div:nth-child(4) img:hover {
+.socialPage3 div:nth-child(4) img:hover {
     opacity: 50%;
 }
