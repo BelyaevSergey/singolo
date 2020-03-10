@@ -686,6 +686,7 @@ word-spacing: -2.39px;
     width: 940px;
     margin:0 auto;
     padding-bottom: 67px;
+    margin-top: -7px;
 }
 .wrapper2Page2 {
     width: 940px;
@@ -825,13 +826,14 @@ word-spacing: -2.39px;
 .wrapper1Page3 {
     width: 1020px;
     margin: 0 auto;
+    margin-top: -1px;
 }
 .wrapperPage3 {
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
     padding: 1px;
     margin: 0px;
-    padding-bottom: 37px;
+    padding-bottom: 39px;
 }
 .containerPage3 {
     width: 940px;
@@ -847,7 +849,7 @@ word-spacing: -2.39px;
     color: #f0d8d9;
     font-weight: 900;
     text-align: justify;
-    margin-top: 107px;
+    margin-top: 67px;
     letter-spacing: -0.3px;
 }
 .textPage3 {
@@ -939,7 +941,7 @@ width: 621px;
 
 .socialPage3 {
     display:flex;
-    margin-top: 24px;
+    margin-top: 22px;
     padding-right: 32px;
 }
 textarea {
@@ -992,11 +994,11 @@ textarea {
 #name{
     background-color: #d6564f;
     border: none;
-    width: 606px;
+    width: 602px;
     height: 36px;
     border-radius: 5px;
-    padding-left: 12px;
-    margin-top: 2px;
+    padding-left: 15px;
+    margin-top: 1px;
 }
 #email {
     background-color: #d6564f;
