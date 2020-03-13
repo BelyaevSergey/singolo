@@ -9,73 +9,55 @@
 </head>
 <body>
 <div class="page1">
-   <div class="columnPage1"> <!-- структура из трех блоков-->
+   <div class="columnPage1"> 
 
+                                    <!-- Header -->
        <header class="headerPage1">
-           <div class="containerPage1"> <!-- границы блока-->
-
-               <div class="container1Page1"> <!-- флексбокс для хедера-->
-
+           <div class="containerPage1"> 
+               <div class="container1Page1">
                    <h1 class="logoPage1"> Singolo<span class="uni">&#42;</span></h1>
-                   
-                   <div class="menuPage1">
-                       <div class="menu1"><a href="#"><span class="home">Home</span></a></div>
-                       <div class="menu1"><a href="#"><span class="dot"><span class="dotcol">&#183;</span>Services</span></a></div>
-                       <div class="menu1"><a href="#"><span class="dot"><span class="dotcol">&#183;</span>Portfolio</span></a></div>
-                       <div class="menu1"><a href="#"><span class="dot"><span class="dotcol">&#183;</span>About</span></a></div>
-                       <div class="menu1"><a href="#"><span class="dot"><span class="dotcol">&#183;</span>Contact</span></a></div>
+                   <div class="menuPage1" id="menu">
+                       <div class="menu_button"><a href="#AnchorHome"><span class="name_button_menu active">Home</span></a></div>
+                       <div class="menu_button"><a href="#AnchorServices"><span class="dot">&#183;</span><span class="name_button_menu">Services</span></a></div>
+                       <div class="menu_button"><a href="#AnchorPortfolio"><span class="dot">&#183;</span><span class="name_button_menu">Portfolio</span></a></div>
+                       <div class="menu_button"><a href="#AnchorAbout"><span class="dot">&#183;</span><span class="name_button_menu">About</span></a></div>
+                       <div class="menu_button"><a href="#AnchorContact"><span class="dot">&#183;</span><span class="name_button_menu">Contact</span></a></div>
                    </div>
                </div>
            </div>
        </header>
 
-       <section class="slide">
+                                    <!--SlideBlock-->
+        <section class="slide" id="AnchorHome">
            <div class="container5">
-               <div class="chev1">
-                   <img src="../singolo/assets/chev.png" alt="chev">
-               </div>
-               <div class="chev2">
-                   <img src="../singolo/assets/chev.png"  alt="chev">
-               </div>
-
-               <div class="phver">
-                   <img src="../singolo/assets/Base.png" alt="phone">
-               </div>
-
-               <div class="phgor">
-                   <img src="../singolo/assets/Screen.png" alt="phone">
-               </div>
+               <div class="chev1"><img src="./assets/img/chev.png" alt="chev"></div>
+               <div class="chev2"><img src="./assets/img/chev.png"  alt="chev"></div>
+               <div class="phver"><img src="./assets/img/Base.png" alt="phone"></div>
+               <div class="phgor"><img src="./assets/img/Screen.png" alt="phone"></div>
            </div>
+        </section>
 
-       </section>
-
+                                    <!--ServicesBlock-->
        <section class="servicesPage1">
+            <div class="containerPage1"> 
 
-           <div class="containerPage1"> <!-- границы блока-->
-
-               <div class="container2Page1">
+                <div class="container2Page1">
                    <div class="headingPage1">
-                       <h2 class="h2Page1">Our Services</h2>
+                       <h2 class="h2Page1" id="AnchorServices">Our Services</h2>
                    </div>
-                   <div class="descriptionPage1">
-                   Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
-                   </div>
+                   <div class="descriptionPage1">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
 
                    <div class="container3Page1">
 
                        <div class="cub1">
-                           <div class="servpic1">
-                               <img src="../singolo/assets/pen.png" alt="pen">
-                           </div>
+                           <div class="servpic1"><img src="./assets/img/pen.png" alt="pen"></div>
                            <div class="serv1">
                                <p class="p1">Custom Design</p> Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit
                            </div>
                        </div>
 
                        <div class="cub2">
-                           <div class="servpic2">
-                               <img src="../singolo/assets/bulb.png" alt="bulb">
-                           </div>
+                           <div class="servpic2"><img src="./assets/img/bulb.png" alt="bulb"></div>
                            <div class="serv2">
                                <p class="p2">Inovative Ideas</p> 
                                <div class="text2">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div>
@@ -83,44 +65,35 @@
                        </div>
 
                        <div class="cub3">
-                           <div class="servpic3">
-                               <img src="../singolo/assets/heart.png" alt="heart">
-                           </div>
+                           <div class="servpic3"><img src="./assets/img/heart.png" alt="heart"></div>
                            <div class="serv3">
                                <p class="p3">Love Is The Answer</p> 
                                <div class="text3">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div>
                            </div>
                        </div>
+
                    </div>
 
                    <div class="container4">
 
                        <div class="cub4">
-                           <div class="servpic4">
-                               <img src="../singolo/assets/phone.png" alt="phone">
-                           </div>
+                           <div class="servpic4"><img src="./assets/img/phone.png" alt="phone"></div>
                            <div class="serv4">
                                <p class="p4">Responsive Layout</p> 
                                <div class="text4">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</div>
-
-                           </div>
+                            </div>
                        </div>
 
                        <div class="cub5">
-                           <div class="servpic5">
-                               <img src="../singolo/assets/bubble.png" alt="bubble">
-                           </div>
+                           <div class="servpic5"><img src="./assets/img/bubble.png" alt="bubble"></div>
                            <div class="serv5">
                                <p class="p5">24 / 7 Support</p> 
                                <div class="text5">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lor</div>
-
-                           </div>
+                            </div>
                        </div>
 
                        <div class="cub6">
-                           <div class="servpic6">
-                               <img src="../singolo/assets/star.png" alt="star">
-                           </div>
+                           <div class="servpic6"><img src="./assets/img/star.png" alt="star"></div>
                            <div class="serv6">
                                <p class="p6">Feel Like A Star</p> 
                                <din class="text6">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</div>
@@ -133,15 +106,13 @@
 
            </div>
        </section>
+</div>
 
-
-       
-    </div>
-   </div>
+                                <!--Page2--PortfolioBlock -->
    <div class="container1Page2">
-    <div class="wrapper1Page2">
+    <div class="wrapper1Page2 " id="AnchorPortfolio">
         <header class="headerPage2">
-            <div class="h1Page2">Portfolio</div>
+            <div class="h1Page2" >Portfolio</div>
             <div class="textPage2">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</div>
         </header>
         <nav class="navPage2">
@@ -156,33 +127,35 @@
 
         <main class="mainPage2">
             <div class="columnPage2">
-                <div class="imgbox"><img src="../singolo/assets/1.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/2.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/3.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/1.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/2.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/3.jpg" alt=""></div>
                 
             </div>
             <div class="columnPage2">
-                <div class="imgbox"><img src="../singolo/assets/4.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/7.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/10.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/4.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/7.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/10.jpg" alt=""></div>
             </div>
             <div class="columnPage2">
-                <div class="imgbox"><img src="../singolo/assets/5.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/8.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/11.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/5.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/8.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/11.jpg" alt=""></div>
             </div>
             <div class="columnPage2">
-                <div class="imgbox"><img src="../singolo/assets/6.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/9.jpg" alt=""></div>
-                <div class="imgbox"><img src="../singolo/assets/12.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/6.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/9.jpg" alt=""></div>
+                <div class="imgbox"><img src="./assets/img/12.jpg" alt=""></div>
             </div>
          
         </main>
 
     </div>
 </div>
+
+                                <!--Page3--AboutUs-->
 <div class="container2Page2">
-    <div class="wrapper2Page2">
+    <div class="wrapper2Page2" id="AnchorAbout">
         <section class="footerPage2">
        <h2 class="h2Page2">About Us</h2>
        <div class="text2Page2">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
@@ -190,40 +163,40 @@
 
 
             <div class="aboutPage2">
-                <div class="fotoPage2"><img src="../singolo/assets/photo3.jpg" alt=""></div>
+                <div class="fotoPage2"><img src="./assets/img/photo3.jpg" alt=""></div>
                 <div class="name1Page2">Adam Jensen</div>
                 <div class="AdamText">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</div>
                 <div class="socialPage2">
-                    <div><img src="../singolo/assets/Facebook.png" alt=""></div>
-                    <div><img src="../singolo/assets/Google.png" alt=""></div>
-                    <div><img src="../singolo/assets/Twit.png" alt=""></div>
-                    <div><img src="../singolo/assets/Ln.png" alt=""></div>
+                    <div><img src="./assets/img/Facebook.png" alt=""></div>
+                    <div><img src="./assets/img/Google.png" alt=""></div>
+                    <div><img src="./assets/img/Twit.png" alt=""></div>
+                    <div><img src="./assets/img/Ln.png" alt=""></div>
                 </div>
             </div>
 
 
             <div class="aboutPage2">
-                <div class="fotoPage2"><img src="../singolo/assets/photo.jpg" alt=""></div>
+                <div class="fotoPage2"><img src="./assets/img/photo.jpg" alt=""></div>
                 <div class="name2Page2">Desmond Miles</div>
                 <div class="DesmondText">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</div>
                 <div class="socialPage2">
-                    <div><img src="../singolo/assets/Facebook.png" alt=""></div>
-                    <div><img src="../singolo/assets/Google.png" alt=""></div>
-                    <div><img src="../singolo/assets/Twit.png" alt=""></div>
-                    <div><img src="../singolo/assets/Ln.png" alt=""></div>
+                    <div><img src="./assets/img/Facebook.png" alt=""></div>
+                    <div><img src="./assets/img/Google.png" alt=""></div>
+                    <div><img src="./assets/img/Twit.png" alt=""></div>
+                    <div><img src="./assets/img/Ln.png" alt=""></div>
                 </div>
             </div>
 
 
             <div class="aboutPage2">
-                <div class="fotoPage2"><img src="../singolo/assets/photo1.jpg" alt=""></div>
+                <div class="fotoPage2"><img src="./assets/img/photo1.jpg" alt=""></div>
                 <div class="name3Page2">Scolara Visari</div>
                 <div class="ScolaraText">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</div>
                 <div class="socialPage2">
-                    <div><img src="../singolo/assets/Facebook.png" alt=""></div>
-                    <div><img src="../singolo/assets/Google.png" alt=""></div>
-                    <div><img src="../singolo/assets/Twit.png" alt=""></div>
-                    <div><img src="../singolo/assets/Ln.png" alt=""></div>
+                    <div><img src="./assets/img/Facebook.png" alt=""></div>
+                    <div><img src="./assets/img/Google.png" alt=""></div>
+                    <div><img src="./assets/img/Twit.png" alt=""></div>
+                    <div><img src="./assets/img/Ln.png" alt=""></div>
                 </div>
             </div>
         </section>
@@ -231,9 +204,11 @@
         </section>
     </div>
 </div>
+
+                                <!--FormContactBlock-->
 <div class=wrapper1Page3>
     <div class="wrapperPage3">
-        <div class="containerPage3">
+        <div class="containerPage3" id="AnchorContact">
             <section>
                 <h2 class="h2Page3">Get a Quote</h2>
                 <div class="textPage3">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
@@ -241,16 +216,14 @@
             <section class="informationPage3">
                 <div class= "forminfo">
                     <form action="https://www.w3schools.com/action_page.php" target="_blank" method="POST">
+                        
                         <label for="name"></label>
-
                         <input type="text" name="name" id="name" placeholder="Name (Required)" required><br>
-
+                        
                         <label for="email"></label>
-
                         <input type="email" name="email" id="email" placeholder="Email (Required)" required><br>
-
+                        
                         <label for="subject"></label>
-
                         <input type="text" name="subject" id="subject" placeholder="Subject"><br>
 
                         <textarea name="project_detail" id="project_detail" cols="30" rows="10" style="resize:none" placeholder="Describe your project in detail..."></textarea><br>
@@ -258,38 +231,36 @@
                         <input type="button" value="Submit" id="button">
                     </form>
                 </div>
+
                 <div class= "contactInfoPage3">
                     <h3 class="h3Page3">Contact Information</h3>
                     <div class="infoPage3">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. 
                     </div>
                     <div class= "contactPage3"> 
                         <div class="infoTextPage3">
-                            <div class="infopicPage3"><img src="../singolo/assets/locationinfo.png" alt=""> Elm St. 14/05 Lost City</div>
-                            <div class="infopicPage3"><a href="tel:+03528 331 86 35"><img src="../singolo/assets/phoneinfo.png" alt=""></a> 03528 331 86 35</div>
-                            <div class="infopicPage3"><a href="mailto:info@singolo.com"><img src="../singolo/assets/mailinfo.png" alt=""></a> info@singolo.com</div>
+                            <div class="infopicPage3"><img src="./assets/img/locationinfo.png" alt=""> Elm St. 14/05 Lost City</div>
+                            <div class="infopicPage3"><a href="tel:+03528 331 86 35"><img src="./assets/img/phoneinfo.png" alt=""></a> 03528 331 86 35</div>
+                            <div class="infopicPage3"><a href="mailto:info@singolo.com"><img src="./assets/img/mailinfo.png" alt=""></a> info@singolo.com</div>
 
                         </div>
                     </div>
                 </div>
-                   
-                
-            </section>
+             </section>
         </div>
     </div>
+
         <footer class="footerPage3">
-            <div class="copyrightPage3"><img src="../singolo/assets/© Copyright 2013 .png" alt=""></div>
+            <div class="copyrightPage3"><img src="./assets/img/© Copyright 2013 .png" alt=""></div>
             <div class="socialPage3">
-                <div><img src="../singolo/assets/Facebook.png" alt=""></div>
-                <div><img src="../singolo/assets/Google.png" alt=""></div>
-                <div><img src="../singolo/assets/Twit.png" alt=""></div>
-                <div><img src="../singolo/assets/Ln.png" alt=""></div>
+                <div><img src="./assets/img/Facebook.png" alt=""></div>
+                <div><img src="./assets/img/Google.png" alt=""></div>
+                <div><img src="./assets/img/Twit.png" alt=""></div>
+                <div><img src="./assets/img/Ln.png" alt=""></div>
             </div>
 
         </footer>
-
-
-    
 </div>
+<script src="script.js"></script>
 </body>
 
 </html>
