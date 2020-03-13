@@ -24,37 +24,30 @@ margin: 0;
                                                          /* Header */
 
 .page1 {
-    font-family: Lato-Black;
+font-family: Lato-Black;
 width: 1020px;
 padding: 0;
 margin: 0 auto;
 }
-.columnPage1 
-{
-    display:flex;
-    flex-direction: column;
-}
+
 
 .headerPage1 {
     border-bottom: 5px solid #323746;
-    height: 90px;
+    padding-bottom: 31px;
     background-color: #2d303a;
     }
 
-.containerPage1 {
+.container_header {
     width: 940px;;
     margin: 0 auto;
     padding:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     
 }
 
-.container1Page1 {     
-    display: flex;
-    padding:0;
-    margin: 0;
-    justify-content: space-between;
-    align-items: flex-start;
-}
+
 
 h1 {
     font-family: Lato-Bold;
@@ -79,7 +72,7 @@ h1 {
 .menuPage1 {
     font-family:Lato-Bold ;
     font-size: 12px;
-    margin: 42px 0 0 0;
+    margin: 26px 0 0 0;
     padding: 0;
     color: white; 
     letter-spacing: -0.26px;
@@ -121,55 +114,133 @@ h1 {
     }
     
                                                       /* Slider */
+
 .slide {
+    margin:0 auto;
+    position: relative;
     height: 595px;
+    overflow: hidden;
+ }
+.container_item {
     border-bottom: 5px solid #ea676b;
     background-color: #f06c64;
+    height: 595px;
+    position: relative;
+    overflow: hidden;
 }
-
-.container5 {
+.item.active {
+    display: block;
     width: 940px;;
     height: 595px;
     margin: 0 auto;
     padding:0;
-    position: relative;
+    position: absolute;
+    top:0px;
+                                                        
+}
+.phver {
+    position: absolute;
+    left: 109px;
+    top: 48px;
+}
+.phgor {
+    position: absolute;
+    right: 27px;
+    top: 170px;
+}
+                                                    
+.container_item_2 {
+    overflow: hidden;
+}
+
+.item {
+    display: none;
+    width: 940px;;
+    height: 595px;
+    margin: 0 auto;
+    padding:0;
+    position: absolute;
+    top:0px;
+    animation: 0.5s ease-in-out;
+  
 }
 
 .chev1 {
     position: absolute;
-    right: 98%;
+    right: 94%;
     transform: rotate(180deg);
-    top: 47%;
+    top: 46%;
+    cursor: pointer;
 }
 
 .chev2 {
     position: absolute;
-    left: 98%;
+    left: 94%;
     top: 47%;
+    cursor: pointer;
 }
 
 .chev1:hover, .chev2:hover{
  opacity: 0.5;
 }
 
-.phver {
-    position: absolute;
-    left: 69px;
-    top: 47px;
+.active,
+.next {
+    display: block;
 }
 
-.phgor {
+.next {
     position: absolute;
-    right: 68px;
-    top: 170px;
+    top:0;
 }
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left:0;
+    }
+    to {
+        left:-100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left:100%;
+    }
+    to {
+        left:0;
+    }
+}         
+
                                                     /*Services*/
 
+.containerServices {
+    width: 940px;
+    margin:0 auto;
+}
 .servicesPage1 {
     height: 495px;
     border-bottom: 5px solid #ffffff;
     background-color: #f2f2f2;
-    margin-top: 0;
+    margin-top: 4px;
 }
 
 .container2Page1 {

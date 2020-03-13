@@ -22,37 +22,28 @@ padding: 0;
 margin: 0;
 }
 .page1 {
-    font-family: Lato-Black;
+font-family: Lato-Black;
 width: 1020px;
 padding: 0;
 margin: 0 auto;
 }
-.columnPage1 
-{
-    display:flex;
-    flex-direction: column;
-}
 
 .headerPage1 {
     border-bottom: 5px solid #323746;
-    height: 90px;
+    padding-bottom: 31px;
     background-color: #2d303a;
     }
 
-.containerPage1 {
+.container_header {
     width: 940px;;
     margin: 0 auto;
     padding:0;
-    
-}
-
-.container1Page1 {     
     display: flex;
-    padding:0;
-    margin: 0;
     justify-content: space-between;
     align-items: flex-start;
-}
+    }
+
+
 
 h1 {
     font-family: Lato-Bold;
@@ -61,7 +52,6 @@ h1 {
     padding: 0;
     margin-top: 29px;
     text-transform: uppercase;
-    /*border:2px solid wheat;*/
     color: white;
     
 }
@@ -118,46 +108,126 @@ h1 {
         color: #494e62;
     }
 
+
+
 .slide {
-    
+    margin:0 auto;
+    position: relative;
     height: 595px;
+    overflow: hidden;
+}
+.container_item {
     border-bottom: 5px solid #ea676b;
     background-color: #f06c64;
-    /*border:2px solid greenyellow;*/
-    
+    height: 595px;
+    position: relative;
+    overflow: hidden;
 }
-.container5 {
+.item.active {
+    display: block;
     width: 940px;;
     height: 595px;
     margin: 0 auto;
     padding:0;
-    position: relative;
-    /*border: 2px solid green;*/
-}
-.chev1 {
     position: absolute;
-    right: 98%;
-    transform: rotate(180deg);
-    top: 47%;
-}
-.chev2 {
-    position: absolute;
-    left: 98%;
-    top: 47%;
-}
-.chev1:hover, .chev2:hover{
- opacity: 0.5;
+    top:0px;
+    
 }
 .phver {
     position: absolute;
-    left: 69px;
-    top: 47px;
-}
+    left: 109px;
+    top: 48px;
+    }
 .phgor {
     position: absolute;
-    right: 68px;
+    right: 27px;
     top: 170px;
 }
+
+.container_item_2 {
+overflow: hidden;
+    }
+
+.item {
+    display: none;
+    width: 940px;;
+    height: 595px;
+    margin: 0 auto;
+    padding:0;
+    position: absolute;
+    top:0px;
+    animation: 0.5s ease-in-out;
+  
+}
+
+.chev1 {
+    position: absolute;
+    right: 94%;
+    transform: rotate(180deg);
+    top: 46%;
+    cursor: pointer;
+}
+
+.chev2 {
+    position: absolute;
+    left: 94%;
+    top: 47%;
+    cursor: pointer;
+}
+
+.chev1:hover, .chev2:hover{
+ opacity: 0.5;
+}
+
+.active,
+.next {
+    display: block;
+}
+
+.next {
+    position: absolute;
+    top:0;
+}
+
+.to-left {
+    animation-name: left;
+}
+
+.to-right {
+    animation-name: right;
+    animation-direction: reverse;
+}
+
+.from-left {
+    animation-name: left;
+    animation-direction: reverse;
+}
+
+.from-right {
+    animation-name: right;
+}
+
+@keyframes left {
+    from {
+        left:0;
+    }
+    to {
+        left:-100%;
+    }
+}
+
+@keyframes right {
+    from {
+        left:100%;
+    }
+    to {
+        left:0;
+    }
+}
+
+
+
+
 
 .servicesPage1 {
 
@@ -166,6 +236,13 @@ h1 {
     border-bottom: 5px solid #ffffff;
     background-color: #f2f2f2;
     margin-top: 0;
+}
+.content_slider {
+    width: 940px;;
+   
+    margin: 0 auto;
+    padding:0;
+
 }
 
 .container2Page1 {
