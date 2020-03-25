@@ -5,6 +5,10 @@ MENU.addEventListener('click', (event) => {
 MENU.querySelectorAll('.name_button_menu').forEach(el => el.classList.remove('active'));
 event.target.classList.add('active');
 })*/
+                                              
+
+
+//                                                          Slider
 
 let items = document.querySelectorAll('.item');
 let currentItem = 0;
@@ -58,3 +62,65 @@ document.querySelector('.control.left').addEventListener('click', function() {
             nextItem(currentItem);
         }
     });
+    let check = true;
+
+    //                                                 Phone's screens 
+
+
+    const OnOff1 = () => {
+    
+        if (check) {
+            document.querySelector('.screenOff1').classList.add('disactive1');
+            check = false;
+        }
+        else {
+            document.querySelector('.screenOff1').classList.remove('disactive1');
+            check = true;
+        }
+    }
+    document.querySelector('.switch1').addEventListener('click', OnOff1);
+
+    let check2=true;
+
+    const OnnOff2 = () => {
+        if(check2) { 
+
+            document.querySelector('.screenOff2').classList.add('disactive2');
+            check2 = false;
+
+        }
+        else {
+            document.querySelector('.screenOff2').classList.remove('disactive2');
+            check2 = true;
+        }
+    }
+    document.querySelector('.switch2').addEventListener('click', OnnOff2);
+
+    //                                              Portfolio 
+    
+
+let bott = document.querySelector('.navigationPortfolio>div>ul');
+let pic = document.querySelector('.mainPage2');
+bott.addEventListener('click', function(event) {
+if (event.target.tagName==='LI'){
+    document.querySelectorAll('.navigationPortfolio .portMenu').forEach(function(item){
+    item.classList.remove('activeBut');
+    event.target.classList.add('activeBut');
+    pic.insertBefore(pic.firstChild,pic.lastChild);
+    pic.insertBefore(pic.childNodes[1],pic.childNodes[2]);
+    
+}); }
+
+})
+
+let imgboxes = document.querySelector('.mainPage2');
+imgboxes.addEventListener('click', function(event){
+    if (event.target.tagName==='IMG') {
+        document.querySelectorAll('.imgbox>img').forEach(function(item){
+            item.classList.remove('activePic');
+        });
+        event.target.classList.add('activePic');
+    }
+
+});
+

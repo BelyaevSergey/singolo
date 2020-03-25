@@ -15,11 +15,11 @@
     src: url("./assets/fonts/Lato-Regular.woff");
 }
 
-
   
 body {
 padding: 0;
 margin: 0;
+scroll-behavior: smooth;
 }
                                                          /* Header */
 
@@ -118,7 +118,7 @@ h1 {
 .slide {
     margin:0 auto;
     position: relative;
-    height: 595px;
+    height: 600px;
     overflow: hidden;
  }
 .container_item {
@@ -147,6 +147,53 @@ h1 {
     position: absolute;
     right: 27px;
     top: 170px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.phone {
+    border: 1px solid white;
+}
+.screenOff1 {
+    position: absolute;
+    left: 123px;
+    top: 115px;
+    z-index: -1;
+}
+ .disactive1 {
+  
+    z-index: 2;
+}
+.switch1 {
+    position: absolute;
+    width: 194px;
+    height: 339px;
+    z-index: 3;
+    left: 122px;
+    top: 114px;
+    
+
+}
+.screenOff2 {
+    position: absolute;
+    right: 119px;
+    top: 185px;
+    z-index: -1;
+}
+.disactive2 {
+    z-index: 2;
+}
+
+.switch2 {
+    position: absolute;
+    width: 339px;
+    height: 194px;
+    right: 119px;
+    top: 185px;
+    z-index: 2;
+    
 }
                                                     
 .container_item_2 {
@@ -240,7 +287,7 @@ h1 {
     height: 495px;
     border-bottom: 5px solid #ffffff;
     background-color: #f2f2f2;
-    margin-top: 4px;
+    margin-top: 0px;
 }
 
 .container2Page1 {
@@ -680,7 +727,7 @@ letter-spacing: 0.159px;
 word-spacing: -2.39px;
 }
 
-.navPage2 ul {
+.navigationPortfolio ul {
     margin-left: 0px;
     padding:0px;
     margin-top: 11px;
@@ -688,7 +735,7 @@ word-spacing: -2.39px;
     letter-spacing: 0.245px;
 }
 
-.navPage2 ul li {
+.navigationPortfolio ul li {
     font-family: "Lato-Regular";
     display: inline-block;
     border:1px solid #666d89;
@@ -703,15 +750,19 @@ word-spacing: -2.39px;
     padding-left: 6px;
 }
 
-.navPage2 ul li a {
+.navigationPortfolio ul li a {
     display: block;
     text-decoration: none;
 }
 
-.navPage2 ul li:hover {
+.navigationPortfolio ul li:hover {
     opacity: 50%;
     color: #dedede;
     cursor: pointer;
+}
+.navigationPortfolio ul li.activeBut {
+    color: lavender;
+    border-color: ivory;
 }
                                                     /*PictureGrid*/
 .mainPage2 
@@ -723,6 +774,10 @@ word-spacing: -2.39px;
     max-width: 940px;
     flex-wrap: wrap;
     overflow: hidden;
+}
+.activePic {
+    outline-offset: -5px;
+    outline: 5px solid #F06C64;
 }
 
 .columnPage2 {
@@ -737,6 +792,7 @@ word-spacing: -2.39px;
    height: 187px;
    width: 220px;
    padding-bottom: 20px;
+  
 }
                                                     /*Page3 AboutUs*/
 .container2Page2 {
@@ -745,6 +801,7 @@ word-spacing: -2.39px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
     padding-bottom: 3px;
+   
     
 }
 
