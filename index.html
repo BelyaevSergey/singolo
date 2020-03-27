@@ -241,9 +241,18 @@
                 <div class="textPage3">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</div>
             </section>
             <section class="informationPage3">
+                <div class="infoWindow">
+                    <div class="informationWindow">
+                        <div id="div1">Письмо отправлено</div>
+                        <div id="div2"></div>
+                        <div id="div3"></div>
+                        <div></div>
+                    </div>
+                    <button name="butt" type="reset" form="form" id="resetBut">Ок</button>
+                </div>
                 <div class= "forminfo">
 
-                    <form action="https://www.w3schools.com/action_page.php" target="_blank" method="POST">
+                    <form action="" target="_blank" method="POST" id="form" onsubmit="return false">
                         
                         <label for="name"></label>
                         <input type="text" name="name" id="name" placeholder="Name (Required)" required><br>
@@ -256,7 +265,7 @@
 
                         <textarea name="project_detail" id="project_detail" cols="30" rows="10" style="resize:none" placeholder="Describe your project in detail..."></textarea><br>
                         
-                        <input type="button" value="Submit" id="button">
+                        <input type="submit" value="Submit" id="button">
                         
                     </form>
 

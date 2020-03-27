@@ -124,3 +124,41 @@ imgboxes.addEventListener('click', function(event){
 
 });
 
+
+
+let form = document.getElementById('button');
+form.addEventListener('click',function(){
+    let nameVar = document.getElementById('name'); 
+    let nameText=nameVar.value;
+    
+    let emailVar = document.getElementById('email'); 
+    let emailText=emailVar.value;
+
+    let subjectVar = document.getElementById('subject');
+    let subjectText = subjectVar.value;
+
+    let projectVar=document.getElementById('project_detail');
+    let projectText=projectVar.value;
+
+    if (nameText.length>0&&emailText.length>0&&emailVar.validity.valid){
+    document.querySelector('.infoWindow').classList.add('activeWindow');
+    if (subjectText.length>0) {
+    document.getElementById('div2').textContent=`Тема: ${subjectText}`;
+    }
+    else {
+        document.getElementById('div2').textContent='Без темы';
+    }
+    if(projectText.length>0){
+    document.getElementById('div3').textContent=`Описание: ${projectText}`;
+    }
+    else {
+        document.getElementById('div3').textContent='Нет описания';
+    }
+    }
+});
+
+let resetBut=document.getElementById('resetBut');
+resetBut.addEventListener('click', function(){
+document.querySelector('.infoWindow').classList.remove('activeWindow');
+
+});
