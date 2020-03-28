@@ -25,7 +25,8 @@ scroll-behavior: smooth;
 
 .page1 {
 font-family: Lato-Black;
-width: 1020px;
+max-width: 1020px;
+width: 100%;
 padding: 0;
 margin: 0 auto;
 }
@@ -38,7 +39,7 @@ margin: 0 auto;
     }
 
 .container_header {
-    width: 940px;;
+    width: 92.3%;
     margin: 0 auto;
     padding:0;
     display: flex;
@@ -130,8 +131,8 @@ h1 {
 }
 .item.active {
     display: block;
-    width: 940px;;
-    height: 595px;
+    width: 92.3%;
+    max-height: 595px;
     margin: 0 auto;
     padding:0;
     position: absolute;
@@ -140,27 +141,41 @@ h1 {
 }
 .phver {
     position: absolute;
-    left: 109px;
-    top: 48px;
+    left: 11.7%;
+    top: 7.7%;
+    width: 26.12%;
+   
+}
+.phver>img {
+    width: 100%;
+    height: 100%;
 }
 .phgor {
     position: absolute;
-    right: 27px;
-    top: 170px;
+    right: 3%;
+    top: 28.4%;
+    width: 52.3%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
 }
+.phgor>img {
+ width: 100%;
+}
 .phone {
     border: 1px solid white;
 }
 .screenOff1 {
     position: absolute;
-    left: 123px;
-    top: 115px;
+    left: 13.05%;
+    top: 19.2%;
+    width: 20.7%;
     z-index: -1;
+}
+.screenOff1>img{
+    width: 100%;
 }
  .disactive1 {
   
@@ -168,11 +183,11 @@ h1 {
 }
 .switch1 {
     position: absolute;
-    width: 194px;
-    height: 339px;
+    width: 21%;
+    height: 57%;
     z-index: 3;
-    left: 122px;
-    top: 114px;
+    left: 13.05%;
+    top: 19.2%;
     
 
 }
@@ -280,17 +295,19 @@ h1 {
                                                     /*Services*/
 
 .containerServices {
-    width: 940px;
+    width: 92.3%;
     margin:0 auto;
 }
 .servicesPage1 {
-    height: 495px;
+    
     border-bottom: 5px solid #ffffff;
     background-color: #f2f2f2;
     margin-top: 0px;
+    padding-bottom: 42px;
+    margin-bottom: 5px;
 }
 
-.container2Page1 {
+.containerServinfo {
     margin: 0;
     padding: 0;
     display:flex;
@@ -320,88 +337,94 @@ h1 {
     padding: 0;
     font-size: 18px;
     line-height: 30px;
-    height: 40px;
     letter-spacing: -0.23px;
     padding-right: 2.3px;
+    width: 100%;
 }
 
 .container3Page1 {
     display:flex;
     margin: 0;
-    margin-top: 53px;
+    margin-top: 44px;
     padding: 0;
-    
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     text-align: justify;
 }
 
-.container4 {
+/* .container4 {
     display:flex;
     margin: 0;
     margin-top: 13px;
     padding: 0;
     justify-content: space-between;
     text-align: justify;
-}
+} */
 
 .cub1 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;  
+    padding-bottom: 33px;
 }
 
 .cub2 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;  
+    padding-bottom: 33px;
 }
 
 .cub3 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;  
+    padding-bottom: 33px;
 }
 
 .cub4 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;
+    padding-bottom: 33px;
 }
 
 .cub5 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;
+    padding-bottom: 33px;
 }
 
 .cub6 {
     display:flex;
-    margin: 10px 10px 10px 0px;
+    /* margin: 10px 10px 10px 0px; */
     padding: 0;
     height: 86px;
-    width: 299px;
-    justify-content:space-between;
+    width: 32%;
+    /* justify-content:space-between; */
     align-content: flex-start;
+    padding-bottom: 33px;
 }
 
 .servpic1 {
@@ -471,6 +494,7 @@ h1 {
     max-height: 97px;
     line-height: 22px;
     text-align: justify;
+    padding-left: 24px;
 }
 
 .serv2 {
@@ -486,6 +510,7 @@ h1 {
     max-height: 97px;
     text-align: justify;
     line-height: 21px;
+    padding-left: 24px;
 }
 
 .serv3 {
@@ -500,6 +525,7 @@ h1 {
     width: 220px;
     max-height: 96px;
     text-align: justify;
+    padding-left: 24px;
 }
 
 .serv4 {
@@ -514,6 +540,7 @@ h1 {
     width: 220px;
     max-height: 96px;
     text-align: justify;
+    padding-left: 24px;
 }
 
 .serv5 {
@@ -528,6 +555,7 @@ h1 {
     width: 220px;
     max-height: 96px;
     text-align: justify;
+    padding-left: 24px;
 }
 
 .serv6 {
@@ -542,6 +570,7 @@ h1 {
     width: 220px;
     max-height: 96px;
     text-align: justify;
+    padding-left: 24px;
 }
 
 .p1 {
@@ -694,7 +723,7 @@ h1 {
                                                          /*Page2*/
 .container1Page2 {
     margin: 0 auto;
-    width: 1020px;
+    max-width: 1020px;
     background-color: #2d303a;
     border-bottom: 6px solid #323746;  
 }
@@ -797,7 +826,7 @@ word-spacing: -2.39px;
                                                     /*Page3 AboutUs*/
 .container2Page2 {
     margin: 0 auto;
-    width: 1020px;
+    max-width: 1020px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
     padding-bottom: 3px;
@@ -806,14 +835,14 @@ word-spacing: -2.39px;
 }
 
 .wrapper1Page2 {
-    width: 940px;
+    width: 92.3%;
     margin:0 auto;
     padding-bottom: 67px;
     margin-top: -7px;
 }
 
 .wrapper2Page2 {
-    width: 940px;
+    width: 92.3%;
     margin:0 auto;  
 }
 
@@ -950,7 +979,7 @@ word-spacing: -2.39px;
 }
                                                 /*Page Form*/
 .wrapper1Page3 {
-    width: 1020px;
+    max-width: 1020px;
     margin: 0 auto;
     margin-top: -1px;
 }
@@ -964,7 +993,7 @@ word-spacing: -2.39px;
 }
 
 .containerPage3 {
-    width: 940px;
+    width: 92.3%;
     margin: 0 auto;
 }
 
