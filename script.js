@@ -97,7 +97,7 @@ document.querySelector('.control.left').addEventListener('click', function() {
     document.querySelector('.switch2').addEventListener('click', OnnOff2);
 
     //                                              Portfolio 
-    
+    /////
 
 let bott = document.querySelector('.navigationPortfolio>div>ul');
 let pic = document.querySelector('.mainPage2');
