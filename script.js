@@ -162,3 +162,11 @@ resetBut.addEventListener('click', function(){
 document.querySelector('.infoWindow').classList.remove('activeWindow');
 
 });
+
+let menuMini = document.querySelector('.miniMenu2');
+menuMini.addEventListener('click', function(){
+    document.querySelector('.miniMenu1').classList.toggle('activeMiniMenu');
+    document.querySelector('.miniMenu').classList.toggle('activeMiniMenu');
+    document.querySelector('.miniMenuPage1').classList.toggle('activeMiniMenu');
+    
+})
