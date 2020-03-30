@@ -1429,7 +1429,7 @@ justify-content: center;
 }
 .miniMenu.activeMiniMenu {
     z-index: 1;
-    padding-right: 98%;
+    
     padding-top: 5%;
 }
 .cub1{
@@ -1468,7 +1468,7 @@ justify-content: center;
     z-index: 2;
 }
  .miniMenu.activeMiniMenu{
-    z-index: -1;
+ 
 } 
 .miniMenu1.activeMiniMenu{
     z-index: 1;
